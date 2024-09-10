@@ -1,21 +1,21 @@
 LogLevel,Timestamp,Component/Module,Message
-INFO,2024/09/04 16:15:12,network_manager,"Network interface 'eth0' is up and running."
-ERROR,2024/09/04 16:15:15,db_handler,"Connection timeout to database 'inventory_db'."
-DEBUG,2024/09/04 16:15:19,cache_manager,"Cache hit rate: 95%."
-WARNING,2024/09/04 16:15:23,cpu_monitor,"CPU usage at 98% for more than 10 minutes."
-CRITICAL,2024/09/04 16:15:28,file_system,"Unable to mount volume 'backup_drive'."
-INFO,2024/09/04 16:15:31,security_audit,"User 'john_doe' updated their password."
-ERROR,2024/09/04 16:15:36,file_transfer,"File transfer failed for 'document.pdf' - Network error."
-DEBUG,2024/09/04 16:15:41,session_manager,"Session timeout set to 30 minutes."
-INFO,2024/09/04 16:15:45,update_service,"System update check completed - No updates available."
-WARNING,2024/09/04 16:15:48,memory_checker,"Swap usage at 75% - Consider adding more RAM."
-INFO,2024/09/04 16:15:52,logger_service,"Log rotation initiated for /var/logs/app.log."
-ERROR,2024/09/04 16:15:55,auth_system,"Invalid login attempt from IP 203.0.113.45."
-CRITICAL,2024/09/04 16:16:00,power_manager,"Battery level critical - 2% remaining."
-DEBUG,2024/09/04 16:16:04,api_gateway,"Processing 25 requests per second."
-WARNING,2024/09/04 16:16:08,temperature_sensor,"Ambient temperature exceeds safe limit - 40°C."
-INFO,2024/09/04 16:16:12,backup_manager,"Daily backup completed successfully."
-ERROR,2024/09/04 16:16:17,smtp_service,"Email sending failed - SMTP server unreachable."
-DEBUG,2024/09/04 16:16:21,config_loader,"Configuration file 'app.conf' loaded in 0.5 seconds."
-WARNING,2024/09/04 16:16:25,network_watchdog,"Detected network flapping on interface 'wlan0'."
-CRITICAL,2024/09/04 16:16:29,kernel_panic,"Kernel panic - not syncing: Fatal exception."
+Unknown,2024/09/04 16:15:12,network_manager,Network interface 'eth0' is up and running.
+ERROR,2024/09/04 16:15:15,db_handler,Connection timeout to database 'inventory_db'.
+DEBUG,2024/09/04 16:15:19,Unknown,Cache hit rate: 95%.
+WARNING,2024/09/04 16:15:23,cpu_monitor,CPU usage at 98% for more than 10 minutes.
+CRITICAL,2024/09/04 16:15:28,file_system,Unable to mount volume 'backup_drive'.
+Unknown,2024/09/04 16:15:31,Unknown,User 'john_doe' updated their password.
+ERROR,2024/09/04 16:15:36,file_transfer,File transfer failed for 'document.pdf' - Network error.
+DEBUG,2024/09/04 16:15:41,session_manager,Session timeout set to 30 minutes.
+INFO,2024/09/04 16:15:45,update_service,System update check completed - No updates available.
+Unknown,2024/09/04 16:15:48,memory_checker,Swap usage at 75% - Consider adding more RAM.
+INFO,2024/09/04 16:15:52,Unknown,Log rotation initiated for /var/logs/app.log.
+Unknown,2024/09/04 16:15:55,auth_system,Invalid login attempt from IP 203.0.113.45.
+CRITICAL,2024/09/04 16:16:00,power_manager,Battery level critical - 2% remaining.
+DEBUG,2024/09/04 16:16:04,api_gateway,Processing 25 requests per second.
+WARNING,2024/09/04 16:16:08,temperature_sensor,Ambient temperature exceeds safe limit - 40°C.
+INFO,2024/09/04 16:16:12,backup_manager,Daily backup completed successfully.
+ERROR,2024/09/04 16:16:17,Unknown,Email sending failed - SMTP server unreachable.
+Unknown,2024/09/04 16:16:21,config_loader,Configuration file 'app.conf' loaded in 0.5 seconds.
+WARNING,2024/09/04 16:16:25,network_watchdog,Detected network flapping on interface 'wlan0'.
+CRITICAL,2024/09/04 16:16:29,Unknown,Kernel panic - not syncing: Fatal exception.
