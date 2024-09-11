@@ -1,9 +1,9 @@
 # Initialize dictionary with default values
 
-# Solution 1: update()
 employees = ['Kelly', 'Emma']
 defaults = {"designation": 'Developer', "salary": 8000}
 
+# Solution 1: update()
 new_dict = {}
 
 for employee in employees:
