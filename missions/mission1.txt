@@ -1,0 +1,61 @@
+Objective: Extract and analyze data from a log file, parse it, and perform various operations using Python.
+
+Exercise Description
+You are given a log file in CSV format containing records of server activity. Your task is to perform the following operations:
+
+Log File Structure: The log file server_logs.csv has the following columns:
+
+timestamp: The date and time when the log entry was created (e.g., 2024-09-16 14:32:45).
+log_level: The severity level of the log (e.g., INFO, WARNING, ERROR).
+message: The log message (e.g., User login successful, Disk space low).
+Tasks:
+
+Extract Data:
+
+Read the server_logs.csv file into a Python script.
+Parse the CSV file and extract the data into a list of dictionaries, where each dictionary represents a log entry.
+Parse and Filter Data:
+
+Write a function to filter log entries based on a given date range (start date and end date).
+Write a function to filter log entries by a specific log level (e.g., ERROR).
+Analyze Data:
+
+Write a function to count the number of log entries per log level.
+Write a function to find the most frequent log message and how many times it appears.
+Regular Expressions:
+
+Write a function to find all log messages that contain an email address. Use regex to identify email addresses in the messages.
+Datetime Handling:
+
+Write a function to parse the timestamp and convert it to a Python datetime object.
+Write a function to calculate the time difference between the earliest and latest log entry.
+File Handling:
+
+Write the filtered log entries (based on date range) to a new CSV file named filtered_logs.csv.
+Write the analysis results (log level counts, most frequent message) to a text file named analysis_results.txt.
+Sample Log File (server_logs.csv)
+
+timestamp,log_level,message
+2024-09-16 14:32:45,INFO,User login successful
+2024-09-16 14:34:12,ERROR,Disk space low on server
+2024-09-16 14:35:21,WARNING,High memory usage detected
+2024-09-16 14:40:05,INFO,User logout successful
+2024-09-16 15:00:00,ERROR,Disk space critically low on server
+Expected Deliverables
+Python Script:
+
+A Python script that performs all the above tasks.
+Filtered Logs:
+
+filtered_logs.csv: Contains log entries within the specified date range.
+Analysis Results:
+
+analysis_results.txt: Contains the analysis of log levels and most frequent message.
+Hints:
+Use the csv module to read and write CSV files.
+Use datetime module to handle timestamps and perform date operations.
+Use the re module to work with regular expressions.
+Make sure to handle file operations carefully, including opening and closing files.
+Submission:
+Submit your Python script and the generated files (filtered_logs.csv and analysis_results.txt) along with any necessary instructions for running your script.
+
