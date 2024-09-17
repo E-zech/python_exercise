@@ -78,4 +78,4 @@ def calc_start_to_end():
     total_time = latest - early
 
     return print(total_time)
-calc_start_to_end()
+# calc_start_to_end()
